@@ -17,4 +17,6 @@ model = tf.keras.models.Sequential([
    tf.keras.layers.Dense(2, activation='softmax')
 ])
 
+model.summary
+
 
